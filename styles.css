@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #c7b1c4;
+}
+
+.home-page{
+    width: 941px;
+    height: 100px;
+    background-color: #9c6ea5;
+     
+}
