@@ -9,15 +9,18 @@ body {
 
 
 .page1{
-
+    
     position: relative;
     width: 66rem;
     height: 45rem;
+    padding: 2rem;
 
 
 }
 
 .sides{
+    top: 0;
+    left: 0;
     position: absolute;
     width: 50%;
     height: 100%;
@@ -38,8 +41,18 @@ body {
     display: flex;
 }
 .book .book-page{
+    position:absolute;
+    width:50%;
+    height: 100%;
+    background-color: aliceblue;
+    box-shadow: 0 0 .6rem rgba(0, 0, 0, 0.1);
+    display: flex;
 
-    
+
+}
+
+.profile{
+    background: aqua;
 }
 /*
 .home-page{
