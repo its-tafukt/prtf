@@ -13,7 +13,7 @@ body {
     position: relative;
     width: 66rem;
     height: 45rem;
-    background: #af63a5;
+
 
 }
 
@@ -21,14 +21,25 @@ body {
     position: absolute;
     width: 50%;
     height: 100%;
-    background-color: #720063;
-    box-shadow: #c7b1c4 ;
+    background-color: #af63a5;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     border-top-left-radius: .6rem;
     border-bottom-left-radius: .6rem;
     transform-origin: right;
 }
 .sides.rightside.turn{
-    transform: rotate(180deg);
+    transform: rotateY(180deg);
+}
+
+.book{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.book .book-page{
+
+    
 }
 /*
 .home-page{
